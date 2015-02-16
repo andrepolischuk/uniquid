@@ -1,0 +1,16 @@
+{
+  "name": "uniquid",
+  "description": "Unique ID generator",
+  "version": "0.1.0",
+  "keywords": [
+    "unique",
+    "id",
+    "identifier"
+  ],
+  "repository": "andrepolischuk/uniquid",
+  "main" : "index.js",
+  "scripts" : [
+    "index.js"
+  ],
+  "license": "MIT"
+}

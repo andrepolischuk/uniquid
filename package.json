@@ -1,0 +1,17 @@
+{
+  "name": "uniquid",
+  "description": "Unique ID generator",
+  "version": "0.1.0",
+  "keywords": [
+    "unique",
+    "id",
+    "identifier"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/andrepolischuk/uniquid.git"
+  },
+  "main": "index.js",
+  "author": "Andrey Polischuk <andre.polischuk@gmail.com>",
+  "license": "MIT"
+}
