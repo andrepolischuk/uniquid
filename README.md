@@ -1,13 +1,13 @@
-# Ccc
+# Uniquid
 
-  Colors converter
+  Unique ID generator
 
 ## Instalation
 
   Browser:
 
 ```html
-<script src="https://cdn.rawgit.com/andrepolischuk/uniquid/1.0.0/dist/uniquid.min.js"></script>
+<script src="https://cdn.rawgit.com/andrepolischuk/uniquid/1.0.1/dist/uniquid.min.js"></script>
 ```
 
   Component(1):
