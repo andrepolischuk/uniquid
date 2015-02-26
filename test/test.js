@@ -1,16 +1,16 @@
 
 var uniquid = require('..');
-var should = require('should');
+var assert = require('assert');
 
 describe('uniquid', function() {
 
   it('should return string', function() {
-    uniquid().should.be.a.String;
-    uniquid('user_').should.be.a.String;
+    assert(typeof uniquid() === 'string');
+    assert(typeof uniquid('user_') === 'string');
   });
 
   it('should start with `user_`', function() {
-    (uniquid('user_').indexOf('user_') === 0).should.be.ok;
+    assert(uniquid('user_').indexOf('user_') === 0);
   });
 
 });
