@@ -101,11 +101,11 @@
  * @api public
  */
 
-function uniqueID(prefix) {
+module.exports = function(prefix) {
 
   var uid = parseInt([
     (new Date()).valueOf(),
-    (Math.random() * 1000000000).toFixed()
+    (Math.random() * 1000000).toFixed()
   ].join('')).toString(36);
 
   return [
@@ -113,13 +113,7 @@ function uniqueID(prefix) {
     uid
   ].join('');
 
-}
-
-/**
- * Module exports
- */
-
-module.exports = uniqueID;
+};
 
 }, {}]}, {}, {"1":""})
 );

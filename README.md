@@ -7,7 +7,7 @@
   Browser:
 
 ```html
-<script src="https://cdn.rawgit.com/andrepolischuk/uniquid/1.0.1/dist/uniquid.min.js"></script>
+<script src="https://cdn.rawgit.com/andrepolischuk/uniquid/1.0.2/uniquid.min.js"></script>
 ```
 
   Component(1):
@@ -24,22 +24,16 @@ $ npm install uniquid
 
 ## API
 
-### uniquid()
+### uniquid([prefix])
 
   Generate ID
 
 ```js
 uniquid();
-// 8cjlrebouy048o
-```
+// atquj2qdjig4
 
-### uniquid(prefix)
-
-  Generate ID with prefix
-
-```js
 uniquid('user_');
-// user_8cjlrixab2g4go
+// user_atqujc5gjj4g
 ```
 
 ## License
