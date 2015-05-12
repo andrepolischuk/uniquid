@@ -7,10 +7,7 @@
     "id",
     "identifier"
   ],
-  "repository": {
-    "type": "git",
-    "url": "git://github.com/andrepolischuk/uniquid.git"
-  },
+  "repository": "andrepolischuk/uniquid",
   "devDependencies": {
     "mocha": "^2.1.0"
   },

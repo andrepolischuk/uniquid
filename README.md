@@ -1,39 +1,21 @@
-# Uniquid
+# uniquid [![Build Status](https://travis-ci.org/andrepolischuk/uniquid.svg?branch=master)](https://travis-ci.org/andrepolischuk/uniquid)
 
-  Unique ID generator
+  > Unique ID generator
 
 ## Instalation
 
-  Browser:
-
-```html
-<script src="https://cdn.rawgit.com/andrepolischuk/uniquid/1.0.2/uniquid.min.js"></script>
-```
-
-  Component(1):
-
 ```sh
+$ npm install --save uniquid
 $ component install andrepolischuk/uniquid
 ```
 
-  Npm:
-
-```sh
-$ npm install uniquid
-```
-
-## API
-
-### uniquid([prefix])
-
-  Generate ID
+## Usage
 
 ```js
-uniquid();
-// atquj2qdjig4
+var uniquid = require('uniquid');
 
-uniquid('user_');
-// user_atqujc5gjj4g
+uniquid(); // atquj2qdjig4
+uniquid('user_'); // user_atqujc5gjj4g
 ```
 
 ## License

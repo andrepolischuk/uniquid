@@ -8,8 +8,8 @@
     "identifier"
   ],
   "repository": "andrepolischuk/uniquid",
-  "main" : "index.js",
-  "scripts" : [
+  "main": "index.js",
+  "scripts": [
     "index.js"
   ],
   "license": "MIT"
