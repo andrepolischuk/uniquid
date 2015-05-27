@@ -8,7 +8,7 @@
 $ npm install --save uniquid
 ```
 
-```js
+```sh
 $ component install andrepolischuk/uniquid
 ```
 
