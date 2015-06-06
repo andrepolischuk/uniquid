@@ -1,7 +1,7 @@
 
 'use strict';
 
-var uniquid = require('..');
+var uniquid = require('./');
 var assert = require('assert');
 
 describe('uniquid', function() {

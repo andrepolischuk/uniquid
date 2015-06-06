@@ -2,14 +2,14 @@
 
   > Unique ID generator
 
-## Instalation
+## Install
 
 ```sh
-$ npm install --save uniquid
+npm install --save uniquid
 ```
 
 ```sh
-$ component install andrepolischuk/uniquid
+component install andrepolischuk/uniquid
 ```
 
 ## Usage
